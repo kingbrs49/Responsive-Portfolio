@@ -226,12 +226,23 @@ input[type=submit] {
   body {
     width: 100%;
   }
+
 }
 
 @media screen and (max-width: 640px) {
   header {
-    text-align: center;
     position: static;
+    text-align: center;
     width: 100%;
+  }
+
+  .nav {
+    display: flex;
+    float: center;
+  }
+
+  .a {
+    display: flex;
+    float: center;
   }
 }
